@@ -19,7 +19,7 @@ body {
 
 .jost-text {
     position: absolute;
-    bottom: 1rem;
+    bottom: 2rem;
     font-family: "Jost", sans-serif;
     font-weight: 200;
     text-align: center;
@@ -72,19 +72,6 @@ hr {
     border: none;
     height: 0.5px;
     width: 100%;
-}
-
-.sign {
-    margin-top: 4rem;
-    height: 8rem;
-    width: 10rem;
-}
-
-.sign-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
 }
 
 @media (max-width: 1200px) {
