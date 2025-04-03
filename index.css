@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+    color: #ddd;
+}
+
+.jost-text {
+    font-family: "Jost", sans-serif;
+    margin-bottom: 4rem;
+    font-weight: 200;
+}
+
+.italic {
+    font-style: italic;
+}
+
+section {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.info {
+    width: 50%;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.info .desc-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.initials {
+    font-style: italic;
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+.connect-text {
+    font-size: 16px;
+}
+
+.link {
+    color: #ddd;
+    font-style: bold;
+}
+
+hr {
+    background-color: #888;
+    border: none;
+    height: 0.5px;
+    width: 100%;
+}
+
+.sign {
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    transform: translateX(-50%);
+    height: 8rem;
+    width: 10rem;
+}
+
+.sign-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 1200px) {
+    section {
+        flex-direction: column;
+        row-gap: 2rem;
+        width: 100%;
+    }
+
+    .info {
+        width: 80%;
+    }
+
+    .info .desc-text {
+        font-size: 16px;
+    }
+
+    .connect-text {
+        font-size: 14px;
+    }
+
+    .initials {
+        font-size: 7rem;
+    }
+}
