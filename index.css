@@ -18,8 +18,9 @@ body {
 
 .jost-text {
     font-family: "Jost", sans-serif;
-    margin-bottom: 4rem;
     font-weight: 200;
+    margin-bottom: 4rem;
+    text-align: center;
 }
 
 .italic {
@@ -109,5 +110,9 @@ hr {
 
     .initials {
         font-size: 7rem;
+    }
+
+    .sign {
+        bottom: 15%;
     }
 }
